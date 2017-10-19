@@ -13,6 +13,6 @@ def digital_root(n):
   for i in range(0, len(x)):
     sum += int(x[i])
   if len(str(sum)) > 1:
-    digital_root(sum)
+    return digital_root(sum)
   else:
     return sum
